@@ -10,6 +10,7 @@ color: #74b9ff;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
    width: 50%; 
@@ -54,6 +55,12 @@ section{
      background-image: url(./images/topmy-benner.png);
      background-repeat: no-repeat;
      
+ }
+ .dream-big{
+     background-image: url(./images/dreammy-bg.png);
+     background-repeat: no-repeat;
+     background-position: right;
+
  }
 
 
