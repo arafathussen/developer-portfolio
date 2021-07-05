@@ -6,93 +6,83 @@ h1{
     font-size: 50px;
 }
 h2{
-   font-size: 40px; 
+    font-size: 40px;
 }
 .blue-color{
-color: #74b9ff;
+    color: #74b9ff;
 }
-.flexible-container{
+p{
+    text-align: justify;
+}
+.flexible-content{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
-   width: 50%; 
-   padding-left: 5%;
+    width: 80%;
+    padding-left: 5%;
 }
 .half-width img{
     width: 80%;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(#74b9ff,#0984e3);
+.top-baner{
+  background-image: url(./images/topmy-benner.png);
+  background-repeat: no-repeat;
+}
+.middle-baner{
+    background-image: url(./images/dreammy-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.buttom-baner{
+
+}
+.button{
+    color: white;
+    font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
-    color: white;
-    font-weight: 700;
-    transition: 0.5s ease-in-out;
-}
-.link-button-2{
     text-decoration: none;
-    background-image: linear-gradient(#74b9ff,#0984e3);
-    padding: 10px 40px;
-    margin-left: 50px;
-    color: white;
-    font-weight: 700;
+    margin-right: 40px;
+    background-image:linear-gradient(#74b9ff,#0984e3);
     transition: 0.5s ease-in-out;
-}
 
-
-.link-button:hover {
-   color: black;
-   background-image: linear-gradient(#0984e3,#74b9ff);
-  
-   
-   
 }
-.link-button-2:hover {
+.button:hover{
     color: black;
-    background-image: linear-gradient(#0984e3,#74b9ff);
-    
-    
- }
- .top-banner{
-     background-image: url(./images/topmy-benner.png);
-     background-repeat: no-repeat;
-     
- }
- .dream-big{
-     background-image: url(./images/dreammy-bg.png);
-     background-repeat: no-repeat;
-     background-position: right;
+    background-image:linear-gradient(#0984e3,#74b9ff);
+}
+.experiences-area{
+    background-image: url(./images/expmy-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 
- }
- .experience-area{
-     background-image: url(./images/expmy-bg.png);
-     background-repeat: no-repeat;
-     background-position: left;
- }
-.experience-item{
+}
+.experiences-item{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
     border-radius: 20px;
     box-shadow: 10px 10px 40px grey;
+}
+
+.experiences {
+    text-align: center;
+}
+#Full-Stack-Developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(#74b9ff,#0984e3);
+    border-image-slice: 1;
+}
+#baby-web-Developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(#0984e3,#74b9ff);
+    border-image-slice: 1;
+
+}
     
 
-}
-#web-dev-experince{
-    border-left: 7px solid;
-    border-image: linear-gradient(#a29bfe, #0984e3);
-    border-image-slice: 1;
-
-}
-#full-stack-experience{
-    border-left: 7px solid;
-    border-image: linear-gradient(#0984e3,#a29bfe);
-    border-image-slice: 1;
-}
 footer p{
     text-align: center;
 }
-
